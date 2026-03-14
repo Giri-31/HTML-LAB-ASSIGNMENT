@@ -7,14 +7,14 @@ scroll-behavior:smooth;
 }
 
 body{
-background:linear-gradient(to right,#e0f7fa,#ffffff);
+background:#ffffff;
 color:#333;
 }
 
 header{
 text-align:center;
 padding:30px;
-background:#0f172a;
+background:#000;
 color:white;
 }
 
@@ -38,6 +38,57 @@ transition:0.3s;
 
 nav ul li a:hover{
 color:#38bdf8;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px 10%;
+background:#000;
+color:white;
+min-height:80vh;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h2{
+font-size:28px;
+font-weight:400;
+margin-bottom:10px;
+}
+
+.hero-text h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+color:#cbd5e1;
+margin-bottom:30px;
+line-height:1.6;
+}
+
+.hero-btn{
+display:inline-block;
+background:#2563eb;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.hero-btn:hover{
+background:#1d4ed8;
+}
+
+.hero-image img{
+width:350px;
+border-radius:10px;
 }
 
 section{
@@ -99,6 +150,12 @@ padding:10px 15px;
 border-radius:20px;
 }
 
+progress{
+width:200px;
+height:10px;
+margin-left:10px;
+}
+
 footer{
 background:#0f172a;
 color:white;
@@ -111,6 +168,16 @@ margin-top:40px;
 
 nav ul{
 flex-direction:column;
+}
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-image img{
+margin-top:30px;
+width:250px;
 }
 
 section{
