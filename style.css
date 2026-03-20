@@ -258,3 +258,53 @@ margin-top:30px;
 }
 
 }
+/* ADD THIS AT THE END */
+
+/* RESUME BUTTON */
+
+.resume-btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 25px;
+border-radius:40px;
+border:1px solid white;
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+.resume-btn:hover{
+background:white;
+color:black;
+transform:scale(1.05);
+}
+/* RESUME BUTTON */
+.resume-btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 25px;
+border-radius:40px;
+border:1px solid white;
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+.resume-btn:hover{
+background:white;
+color:black;
+transform:scale(1.05);
+}
+
+/* NEW SECTIONS */
+#languages p{
+font-size:18px;
+color:#aaa;
+margin-top:20px;
+}
+
+#workshops .skill-group{
+width:300px;
+}
