@@ -144,6 +144,7 @@ flex-wrap:wrap;
 gap:20px;
 justify-content:center;
 margin-top:40px;
+align-items:flex-start; /* 🔥 ADD THIS LINE */
 }
 
 .skill-group{
@@ -154,6 +155,7 @@ padding:25px;
 border-radius:16px;
 width:260px;
 transition:0.3s;
+align-self:flex-start; /* 🔥 ADD THIS */
 }
 
 .skill-group:hover{
