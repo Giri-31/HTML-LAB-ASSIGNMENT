@@ -37,6 +37,20 @@ The website is responsive and adapts to different screen size using:
 
 CSS Flexbox, CSS Grid, Media queries
 
+Setup Instructions
+
+Download or clone the repository
+
+Navigate to the project folder
+
+Ensure all files are in the correct format like html files, style.css, project folder
+
+Running the project:
+
+Open index.html in any web browser 
+
+Or right click i.e. open with any live server
+
 Summary
 
 The website follows a modular structure where each page focuses on a specific purpose, making it easy to navigate, maintain, and scale.
